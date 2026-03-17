@@ -1,41 +1,19 @@
 {
   "assembly_guid": "bf84253be7f2bc6d35edaf3b277514611356aea5",
-  "assembly_subtype": "powershell",
-  "assembly_type": "script",
-  "content_hash": "d7c403b74ba0e4f76233510d49424daa848efd12a819865eb98684bfd882b13b",
-  "created_at": "2025-11-01T07:52:43",
-  "display_name": "ipconfig Release & Renew",
-  "domain": "official",
-  "payload": {
-    "assembly_guid": "bf84253be7f2bc6d35edaf3b277514611356aea5",
-    "category": "script",
-    "description": "Releases the current IP address, waits n seconds, then renews the IP asking for a new one.",
-    "files": [],
-    "name": "ipconfig Release & Renew",
-    "script": "aXBjb25maWcgL3JlbGVhc2UgClN0YXJ0LVNsZWVwIC1TZWNvbmRzICRlbnY6c2xlZXBUaW1lCmlwY29uZmlnIC9yZW5ldw==",
-    "script_encoding": "base64",
-    "sites": {
-      "mode": "all",
-      "values": []
-    },
-    "timeout_seconds": 3600,
-    "type": "powershell",
-    "variables": [
-      {
-        "default": "5",
-        "description": "Number of seconds between releasing the IP and asking for a new one.",
-        "label": "Seconds Until Renew",
-        "name": "sleepTime",
-        "required": true,
-        "type": "string"
-      }
-    ],
-    "version": 1
-  },
-  "payload_guid": "bf84253be7f2bc6d35edaf3b277514611356aea5",
-  "source_path": "scripts/powershell/ipconfig-release-renew--bf84253b.json",
-  "source_repo": "https://github.com/bunny-lab-io/Aurora",
-  "source_version": "2026-03-15T08:41:03",
-  "summary": "Releases the current IP address, waits n seconds, then renews the IP asking for a new one.",
-  "updated_at": "2026-03-15T08:41:03"
+  "name": "ipconfig Release & Renew",
+  "description": "Releases the current IP address, waits n seconds, then renews the IP asking for a new one.",
+  "type": "powershell",
+  "script": "aXBjb25maWcgL3JlbGVhc2UgClN0YXJ0LVNsZWVwIC1TZWNvbmRzICRlbnY6c2xlZXBUaW1lCmlwY29uZmlnIC9yZW5ldw==",
+  "timeout_seconds": 3600,
+  "variables": [
+    {
+      "name": "sleepTime",
+      "label": "Seconds Until Renew",
+      "type": "string",
+      "default": "5",
+      "required": true,
+      "description": "Number of seconds between releasing the IP and asking for a new one."
+    }
+  ],
+  "files": []
 }
