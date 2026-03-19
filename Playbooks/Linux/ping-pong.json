@@ -1,0 +1,10 @@
+{
+  "assembly_guid": "79586969-2922-4f93-a83c-ee7e7a644c1b",
+  "name": "Ansible Ping/Pong",
+  "description": "",
+  "type": "ansible",
+  "script": "LS0tCi0gbmFtZTogQW5zaWJsZSBQaW5nL1BvbmcKICBob3N0czogYWxsCiAgZ2F0aGVyX2ZhY3RzOiBmYWxzZQogIHRhc2tzOgogICAgLSBuYW1lOiBQaW5nIHRoZSB0YXJnZXQKICAgICAgYW5zaWJsZS5idWlsdGluLnBpbmc6CgogICAgLSBuYW1lOiBSZXR1cm4gcG9uZyBkZXRhaWxzCiAgICAgIGFuc2libGUuYnVpbHRpbi5kZWJ1ZzoKICAgICAgICBtc2c6CiAgICAgICAgICAtICJwb25nIgo=",
+  "timeout_seconds": 3600,
+  "variables": [],
+  "files": []
+}
