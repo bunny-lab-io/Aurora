@@ -1,38 +1,51 @@
 {
-  "assembly_guid": "b5b712984e7ad55cf98f9e624e43b0714fd012eb",
+  "assembly_guid": "74897bde8142f1affa4db19d9be78a1316a51cd3",
   "assembly_subtype": "workflow",
   "assembly_type": "workflow",
-  "content_hash": "001ad1ee0bcf18ec580c2e339d660bf12bc3bb6f9adf6534b90b76d7a7e0af81",
+  "content_hash": "06deefb45b4e8250b7b2a50be0b7a1996b138376d65b4bf7cdbd124a11b7fde9",
   "created_at": "2025-11-01T07:52:43",
-  "display_name": "Logic Comparison",
+  "display_name": "Math Operations",
   "domain": "official",
   "payload": {
-    "assembly_guid": "b5b712984e7ad55cf98f9e624e43b0714fd012eb",
+    "assembly_guid": "74897bde8142f1affa4db19d9be78a1316a51cd3",
     "edges": [
       {
         "animated": true,
-        "id": "reactflow__edge-node-1754800111049-node-1754800323495a",
+        "id": "reactflow__edge-node-1754800111049-node-1754800119705a",
         "source": "node-1754800111049",
         "sourceHandle": null,
         "style": {
           "stroke": "#58a6ff",
           "strokeDasharray": "6 3"
         },
-        "target": "node-1754800323495",
+        "target": "node-1754800119705",
         "targetHandle": "a",
         "type": "bezier"
       },
       {
         "animated": true,
-        "id": "reactflow__edge-node-1754800112609-node-1754800323495b",
+        "id": "reactflow__edge-node-1754800112609-node-1754800119705b",
         "source": "node-1754800112609",
         "sourceHandle": null,
         "style": {
           "stroke": "#58a6ff",
           "strokeDasharray": "6 3"
         },
-        "target": "node-1754800323495",
+        "target": "node-1754800119705",
         "targetHandle": "b",
+        "type": "bezier"
+      },
+      {
+        "animated": true,
+        "id": "reactflow__edge-node-1754800119705-node-1754800128555",
+        "source": "node-1754800119705",
+        "sourceHandle": null,
+        "style": {
+          "stroke": "#58a6ff",
+          "strokeDasharray": "6 3"
+        },
+        "target": "node-1754800128555",
+        "targetHandle": null,
         "type": "bezier"
       }
     ],
@@ -40,8 +53,8 @@
       {
         "data": {
           "content": "Store a String or Number",
-          "label": "String Input A",
-          "value": "Bunny"
+          "label": "Number Input A",
+          "value": "5"
         },
         "dragHandle": ".borealis-node-header",
         "dragging": false,
@@ -63,8 +76,8 @@
         "data": {
           "accentColor": "#ff8c00",
           "content": "Store a String or Number",
-          "label": "String Input B",
-          "value": "Bunny"
+          "label": "Number Input B",
+          "value": "3"
         },
         "dragHandle": ".borealis-node-header",
         "dragging": false,
@@ -89,39 +102,60 @@
       },
       {
         "data": {
-          "accentColor": "#c0ff00",
-          "content": "Compare A and B using Logic, with new range operator.",
-          "inputType": "String",
-          "label": "Does A and B Match?",
-          "operator": "Equal (==)",
-          "value": "1"
+          "accentColor": "#00d18c",
+          "content": "Perform Math Operations",
+          "label": "Multiply A x B",
+          "operator": "Multiply",
+          "value": "15"
         },
         "dragHandle": ".borealis-node-header",
         "dragging": false,
         "height": 67,
-        "id": "node-1754800323495",
+        "id": "node-1754800119705",
         "position": {
-          "x": 271.3333333333333,
-          "y": 69.33333333333333
+          "x": 276.66666666666663,
+          "y": 69.33333333333334
         },
         "positionAbsolute": {
-          "x": 271.3333333333333,
-          "y": 69.33333333333333
+          "x": 276.66666666666663,
+          "y": 69.33333333333334
         },
         "selected": false,
         "style": {
-          "--borealis-accent": "#c0ff00",
-          "--borealis-accent-dark": "#86b300",
-          "--borealis-title": "#c0ff00"
+          "--borealis-accent": "#00d18c",
+          "--borealis-accent-dark": "#009262",
+          "--borealis-title": "#00d18c"
         },
-        "type": "ComparisonNode",
+        "type": "MathNode",
+        "width": 160
+      },
+      {
+        "data": {
+          "content": "Store a String or Number",
+          "label": "Usable Result",
+          "value": "15"
+        },
+        "dragHandle": ".borealis-node-header",
+        "dragging": false,
+        "height": 67,
+        "id": "node-1754800128555",
+        "position": {
+          "x": 517.3333333333334,
+          "y": 69.33333333333333
+        },
+        "positionAbsolute": {
+          "x": 517.3333333333334,
+          "y": 69.33333333333333
+        },
+        "selected": true,
+        "type": "DataNode",
         "width": 160
       }
     ],
-    "tab_name": "Logic Comparison"
+    "tab_name": "Math Operations"
   },
-  "payload_guid": "b5b712984e7ad55cf98f9e624e43b0714fd012eb",
-  "source_path": "workflows/general/logic-comparison--b5b71298.json",
+  "payload_guid": "74897bde8142f1affa4db19d9be78a1316a51cd3",
+  "source_path": "workflows/general/math-operations--74897bde.json",
   "source_repo": "https://github.com/bunny-lab-io/Aurora",
   "source_version": "2026-03-15T08:41:03",
   "summary": null,

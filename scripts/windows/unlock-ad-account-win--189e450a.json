@@ -1,7 +1,7 @@
 {
   "assembly_guid": "189e450acf0546adc35aa8d4faaea8dc0a8784cf",
   "name": "Unlock AD Account [WIN]",
-  "description": "Run on DC to unlock user specified at time of execution.",
+  "description": "Run on a domain controller to unlock user specified at time of execution.",
   "type": "powershell",
   "script": "JFVzZXJOYW1lID0gJGVudjpVc2VyX05hbWUKVW5sb2NrLUFEQWNjb3VudCAtSWRlbnRpdHkgJFVzZXJOYW1l",
   "timeout_seconds": 3600,
