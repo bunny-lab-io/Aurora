@@ -1,6 +1,6 @@
 {
   "assembly_guid": "bf84253be7f2bc6d35edaf3b277514611356aea5",
-  "name": "ipconfig Release & Renew",
+  "name": "Release & Renew via ipconfig",
   "description": "Carefully releases the current IP address, waits n seconds, then renews the IP asking for a new one from a DHCP server.",
   "type": "powershell",
   "script": "aXBjb25maWcgL3JlbGVhc2UgClN0YXJ0LVNsZWVwIC1TZWNvbmRzICRlbnY6c2xlZXBUaW1lCmlwY29uZmlnIC9yZW5ldw==",
