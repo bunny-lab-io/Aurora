@@ -1,6 +1,6 @@
 {
   "assembly_guid": "fa79d353e96ef7f84f099e16b559f09596a34e4c",
-  "name": "Write Canary to C Drive",
+  "name": "Write Canary File to C Drive",
   "description": "Writes a simple text file to the C:\\ drive of the computer.  Requires SYSTEM level execution context to work.",
   "type": "powershell",
   "script": "IyBEZWZpbmUgdGhlIGZpbGUgcGF0aAokZmlsZVBhdGggPSAiQzpcQ2FuYXJ5LnR4dCIKCiMgV3JpdGUgc29tZSBjb250ZW50IGludG8gdGhlIGZpbGUKJGVudjpjYW5hcnlNZXNzYWdlIHwgT3V0LUZpbGUgLUZpbGVQYXRoICRmaWxlUGF0aCAtRW5jb2RpbmcgVVRGOAo=",
