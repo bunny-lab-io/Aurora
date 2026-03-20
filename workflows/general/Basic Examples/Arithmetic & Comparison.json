@@ -1,0 +1,184 @@
+{
+  "tab_name": "Arithmetic & Comparison",
+  "nodes": [
+    {
+      "id": "node-1774038736117",
+      "type": "DataNode",
+      "position": {
+        "x": 64.66666666666674,
+        "y": 65.9222208658854
+      },
+      "data": {
+        "label": "Value A",
+        "content": "Store a String or Number",
+        "value": "2"
+      },
+      "dragHandle": ".borealis-node-header",
+      "width": 160,
+      "height": 67,
+      "positionAbsolute": {
+        "x": 64.66666666666674,
+        "y": 65.9222208658854
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "node-1774038737561",
+      "type": "DataNode",
+      "position": {
+        "x": 64.66666666666666,
+        "y": 132.65555826822916
+      },
+      "data": {
+        "label": "Value B",
+        "content": "Store a String or Number",
+        "accentColor": "#ffeb00",
+        "value": "3"
+      },
+      "dragHandle": ".borealis-node-header",
+      "width": 160,
+      "height": 67,
+      "positionAbsolute": {
+        "x": 64.66666666666666,
+        "y": 132.65555826822916
+      },
+      "selected": false,
+      "dragging": false,
+      "style": {
+        "--borealis-accent": "#ffeb00",
+        "--borealis-accent-dark": "#b3a500",
+        "--borealis-title": "#ffeb00"
+      }
+    },
+    {
+      "id": "node-1774038739680",
+      "type": "ComparisonNode",
+      "position": {
+        "x": 583.3333333333334,
+        "y": 65.92222086588541
+      },
+      "data": {
+        "label": "Logic Comparison",
+        "content": "Compare A and B using Logic, with new range operator.",
+        "value": "1",
+        "inputType": "Number",
+        "operator": "Equal (==)"
+      },
+      "dragHandle": ".borealis-node-header",
+      "width": 160,
+      "height": 67,
+      "positionAbsolute": {
+        "x": 583.3333333333334,
+        "y": 65.92222086588541
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "node-1774038741316",
+      "type": "MathNode",
+      "position": {
+        "x": 322,
+        "y": 65.92222086588541
+      },
+      "data": {
+        "label": "Math Operation",
+        "content": "Perform Math Operations",
+        "value": "5",
+        "operator": "Add"
+      },
+      "dragHandle": ".borealis-node-header",
+      "width": 160,
+      "height": 67,
+      "positionAbsolute": {
+        "x": 322,
+        "y": 65.92222086588541
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "node-1774038743180",
+      "type": "DataNode",
+      "position": {
+        "x": 322,
+        "y": 132.65555826822916
+      },
+      "data": {
+        "label": "Value to Check For",
+        "content": "Store a String or Number",
+        "accentColor": "#00d18c",
+        "value": "5"
+      },
+      "dragHandle": ".borealis-node-header",
+      "width": 160,
+      "height": 67,
+      "positionAbsolute": {
+        "x": 322,
+        "y": 132.65555826822916
+      },
+      "selected": false,
+      "dragging": false,
+      "style": {
+        "--borealis-accent": "#00d18c",
+        "--borealis-accent-dark": "#009262",
+        "--borealis-title": "#00d18c"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "node-1774038736117",
+      "sourceHandle": null,
+      "target": "node-1774038741316",
+      "targetHandle": "a",
+      "type": "bezier",
+      "animated": true,
+      "style": {
+        "strokeDasharray": "6 3",
+        "stroke": "#58a6ff"
+      },
+      "id": "reactflow__edge-node-1774038736117-node-1774038741316a"
+    },
+    {
+      "source": "node-1774038737561",
+      "sourceHandle": null,
+      "target": "node-1774038741316",
+      "targetHandle": "b",
+      "type": "bezier",
+      "animated": true,
+      "style": {
+        "strokeDasharray": "6 3",
+        "stroke": "#58a6ff"
+      },
+      "id": "reactflow__edge-node-1774038737561-node-1774038741316b"
+    },
+    {
+      "source": "node-1774038741316",
+      "sourceHandle": null,
+      "target": "node-1774038739680",
+      "targetHandle": "a",
+      "type": "bezier",
+      "animated": true,
+      "style": {
+        "strokeDasharray": "6 3",
+        "stroke": "#58a6ff"
+      },
+      "id": "reactflow__edge-node-1774038741316-node-1774038739680a"
+    },
+    {
+      "source": "node-1774038743180",
+      "sourceHandle": null,
+      "target": "node-1774038739680",
+      "targetHandle": "b",
+      "type": "bezier",
+      "animated": true,
+      "style": {
+        "strokeDasharray": "6 3",
+        "stroke": "#58a6ff"
+      },
+      "id": "reactflow__edge-node-1774038743180-node-1774038739680b"
+    }
+  ]
+}
