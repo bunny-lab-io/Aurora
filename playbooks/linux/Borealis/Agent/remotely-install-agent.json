@@ -1,7 +1,7 @@
 {
   "assembly_guid": "121DD824-0336-44F6-90AE-E5BC203A8474",
-  "name": "Remotely Install Borealis Agent",
-  "description": "Connects to remotely targeted device(s) via SSH and installs the Borealis Agent onto the device with preconfigured serverURL and enrollment code at runtime.",
+  "name": "Remotely Update Borealis Agent",
+  "description": "Connects to remotely targeted device(s) via SSH and updates the Borealis Agent using the bootstrapper script with preconfigured serverURL and enrollment code at runtime.",
   "type": "ansible",
   "script": "LS0tCi0gbmFtZTogQm9vdHN0cmFwIEJvcmVhbGlzIExpbnV4IGFnZW50CiAgaG9zdHM6IGFsbAogIGdhdGhlcl9mYWN0czogZmFsc2UKICBiZWNvbWU6IHRydWUKICB0YXNrczoKICAgIC0gbmFtZTogUnVuIEJvcmVhbGlzIGJvb3RzdHJhcCBvbmUtbGluZXIKICAgICAgYW5zaWJsZS5idWlsdGluLnNoZWxsOiB8CiAgICAgICAgc2V0IC1vIHBpcGVmYWlsCiAgICAgICAgY3VybCAtZnNTTCB7eyBib290c3RyYXBfdXJsIHwgcXVvdGUgfX0gfCBiYXNoIC1zIC0tIC0tYWdlbnQgLS1zZXJ2ZXJ1cmwge3sgc2VydmVyX3VybCB8IHF1b3RlIH19IC0tZW5yb2xsbWVudGNvZGUge3sgZW5yb2xsbWVudF9jb2RlIHwgcXVvdGUgfX0KICAgICAgYXJnczoKICAgICAgICBleGVjdXRhYmxlOiAvYmluL2Jhc2gKICAgICAgcmVnaXN0ZXI6IGJvcmVhbGlzX2Jvb3RzdHJhcAogICAgICBub19sb2c6IHRydWUKICAgICAgY2hhbmdlZF93aGVuOiB0cnVlCg==",
   "timeout_seconds": 3600,
