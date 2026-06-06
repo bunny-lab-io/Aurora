@@ -1,0 +1,51 @@
+{
+  "assembly_guid": "2B9E8AAB-0FC5-42A0-A030-D486FF6ED7EF",
+  "name": "Audit Inactive Domain Users/Computers",
+  "description": "Audit either inactive computers or users (or both) on the domain controller that this script is ran against.   Ignorelists for users and computers can be configured as well as adjusting the scope to only audit users, or only audit computers.",
+  "type": "powershell",
+  "script": "JGluYWN0aXZlVXNlcnNGb3VuZCA9ICRmYWxzZQokaW5hY3RpdmVDb21wdXRlcnNGb3VuZCA9ICRmYWxzZQoKJGF1ZGl0U2NvcGUgPSAkZW52OmF1ZGl0X3Njb3BlCgppZiAoW3N0cmluZ106OklzTnVsbE9yV2hpdGVTcGFjZSgkYXVkaXRTY29wZSkpIHsKICAkYXVkaXRTY29wZSA9ICJib3RoIgp9CgokYXVkaXRTY29wZSA9ICRhdWRpdFNjb3BlLlRyaW0oKS5Ub0xvd2VyKCkKCiR1c2VySWdub3JlTGlzdCA9IEAoKQokY29tcHV0ZXJJZ25vcmVMaXN0ID0gQCgpCgppZiAoLW5vdCBbc3RyaW5nXTo6SXNOdWxsT3JXaGl0ZVNwYWNlKCRlbnY6dXNlcl9pZ25vcmVsaXN0KSkgewogICR1c2VySWdub3JlTGlzdCA9ICRlbnY6dXNlcl9pZ25vcmVsaXN0LlNwbGl0KCIsIikgfCBGb3JFYWNoLU9iamVjdCB7CiAgICAkXy5UcmltKCkKICB9IHwgV2hlcmUtT2JqZWN0IHsKICAgICRfIC1uZSAiIgogIH0KfQoKaWYgKC1ub3QgW3N0cmluZ106OklzTnVsbE9yV2hpdGVTcGFjZSgkZW52OmNvbXB1dGVyX2lnbm9yZWxpc3QpKSB7CiAgJGNvbXB1dGVySWdub3JlTGlzdCA9ICRlbnY6Y29tcHV0ZXJfaWdub3JlbGlzdC5TcGxpdCgiLCIpIHwgRm9yRWFjaC1PYmplY3QgewogICAgJF8uVHJpbSgpCiAgfSB8IFdoZXJlLU9iamVjdCB7CiAgICAkXyAtbmUgIiIKICB9Cn0KCmZ1bmN0aW9uIFdyaXRlLVJlc3VsdFRhYmxlIHsKICBwYXJhbSAoCiAgICBbUGFyYW1ldGVyKE1hbmRhdG9yeSA9ICR0cnVlKV0KICAgIFthcnJheV0kUm93cywKCiAgICBbUGFyYW1ldGVyKE1hbmRhdG9yeSA9ICR0cnVlKV0KICAgIFtzdHJpbmddJERhdGVDb2x1bW5OYW1lCiAgKQoKICAkbmFtZVdpZHRoID0gNDAKICAkZGF0ZVdpZHRoID0gMTIKCiAgV3JpdGUtSG9zdCAoInswLC00MH0gezEsLTEyfSIgLWYgIk5hbWUiLCAkRGF0ZUNvbHVtbk5hbWUpCiAgV3JpdGUtSG9zdCAoInswLC00MH0gezEsLTEyfSIgLWYgIi0tLS0iLCAiLS0tLS0tLS0tLS0tIikKCiAgZm9yZWFjaCAoJHJvdyBpbiAkUm93cykgewogICAgV3JpdGUtSG9zdCAoInswLC00MH0gezEsLTEyfSIgLWYgJHJvdy5OYW1lLCAkcm93LiREYXRlQ29sdW1uTmFtZSkKICB9Cn0KCmZ1bmN0aW9uIGNoZWNrSW5hY3RpdmVVc2VycyB7CiAgV3JpdGUtSG9zdCAiIgogIFdyaXRlLUhvc3QgIj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIKICBXcml0ZS1Ib3N0ICJJbmFjdGl2ZSBVc2VycyIKICBXcml0ZS1Ib3N0ICI9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iCgogICREYXlzID0gKEdldC1EYXRlKS5BZGREYXlzKC0oW2ludF0kZW52OnVzZXJfaW5hY3RpdmVEYXlzKSkKCiAgJGluYWN0aXZlVXNlcnMgPSBHZXQtQURVc2VyIGAKICAgIC1GaWx0ZXIge0xhc3RMb2dvblRpbWVTdGFtcCAtbHQgJERheXMgLWFuZCBlbmFibGVkIC1lcSAkdHJ1ZX0gYAogICAgLVByb3BlcnRpZXMgTGFzdExvZ29uVGltZVN0YW1wIHwKICAgIFdoZXJlLU9iamVjdCB7CiAgICAgICRzY3JpcHQ6dXNlcklnbm9yZUxpc3QgLW5vdGNvbnRhaW5zICRfLk5hbWUKICAgIH0gfAogICAgU2VsZWN0LU9iamVjdCBOYW1lLEB7CiAgICAgIE5hbWU9Ikxhc3RMb2dvbiIKICAgICAgRXhwcmVzc2lvbj17CiAgICAgICAgaWYgKCRfLkxhc3RMb2dvblRpbWVzdGFtcCkgewogICAgICAgICAgW0RhdGVUaW1lXTo6RnJvbUZpbGVUaW1lKCRfLkxhc3RMb2dvblRpbWVzdGFtcCkuVG9TdHJpbmcoJ01NLWRkLXl5eXknKQogICAgICAgIH0KICAgICAgICBlbHNlIHsKICAgICAgICAgICJOZXZlciIKICAgICAgICB9CiAgICAgIH0KICAgIH0KCiAgaWYgKCRpbmFjdGl2ZVVzZXJzKSB7CiAgICAkc2NyaXB0OmluYWN0aXZlVXNlcnNGb3VuZCA9ICR0cnVlCiAgICBXcml0ZS1SZXN1bHRUYWJsZSAtUm93cyAkaW5hY3RpdmVVc2VycyAtRGF0ZUNvbHVtbk5hbWUgIkxhc3RMb2dvbiIKICB9CiAgZWxzZSB7CiAgICBXcml0ZS1Ib3N0ICJObyBpbmFjdGl2ZSB1c2VycyBmb3VuZC4iCiAgfQp9CgpmdW5jdGlvbiBjaGVja0luYWN0aXZlQ29tcHV0ZXJzIHsKICBXcml0ZS1Ib3N0ICIiCiAgV3JpdGUtSG9zdCAiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09IgogIFdyaXRlLUhvc3QgIkluYWN0aXZlIENvbXB1dGVycyIKICBXcml0ZS1Ib3N0ICI9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iCgogICR0aW1lID0gKEdldC1EYXRlKS5BZGREYXlzKC0oW2ludF0kZW52OmNvbXB1dGVyX2luYWN0aXZlRGF5cykpCgogICRpbmFjdGl2ZUNvbXB1dGVycyA9IEdldC1BRENvbXB1dGVyIGAKICAgIC1GaWx0ZXIge0xhc3RMb2dvblRpbWVTdGFtcCAtbHQgJHRpbWV9IGAKICAgIC1SZXN1bHRQYWdlU2l6ZSAyMDAwIGAKICAgIC1SZXN1bHRTZXRTaXplICRudWxsIGAKICAgIC1Qcm9wZXJ0aWVzIE5hbWUsTGFzdExvZ29uVGltZVN0YW1wIHwKICAgIFdoZXJlLU9iamVjdCB7CiAgICAgICRzY3JpcHQ6Y29tcHV0ZXJJZ25vcmVMaXN0IC1ub3Rjb250YWlucyAkXy5OYW1lCiAgICB9IHwKICAgIFNlbGVjdC1PYmplY3QgTmFtZSxAewogICAgICBOYW1lPSJMYXN0QWN0aXZlIgogICAgICBFeHByZXNzaW9uPXsKICAgICAgICBpZiAoJF8uTGFzdExvZ29uVGltZXN0YW1wKSB7CiAgICAgICAgICBbRGF0ZVRpbWVdOjpGcm9tRmlsZVRpbWUoJF8uTGFzdExvZ29uVGltZXN0YW1wKS5Ub1N0cmluZygnTU0tZGQteXl5eScpCiAgICAgICAgfQogICAgICAgIGVsc2UgewogICAgICAgICAgIk5ldmVyIgogICAgICAgIH0KICAgICAgfQogICAgfQoKICBpZiAoJGluYWN0aXZlQ29tcHV0ZXJzKSB7CiAgICAkc2NyaXB0OmluYWN0aXZlQ29tcHV0ZXJzRm91bmQgPSAkdHJ1ZQogICAgV3JpdGUtUmVzdWx0VGFibGUgLVJvd3MgJGluYWN0aXZlQ29tcHV0ZXJzIC1EYXRlQ29sdW1uTmFtZSAiTGFzdEFjdGl2ZSIKICB9CiAgZWxzZSB7CiAgICBXcml0ZS1Ib3N0ICJObyBpbmFjdGl2ZSBjb21wdXRlcnMgZm91bmQuIgogIH0KfQoKc3dpdGNoICgkYXVkaXRTY29wZSkgewogICJib3RoIiB7CiAgICBjaGVja0luYWN0aXZlVXNlcnMKICAgIFN0YXJ0LVNsZWVwIC1TZWNvbmRzIDUKICAgIGNoZWNrSW5hY3RpdmVDb21wdXRlcnMKICB9CgogICJ1c2VycyIgewogICAgY2hlY2tJbmFjdGl2ZVVzZXJzCiAgfQoKICAiY29tcHV0ZXJzIiB7CiAgICBjaGVja0luYWN0aXZlQ29tcHV0ZXJzCiAgfQoKICBkZWZhdWx0IHsKICAgIFdyaXRlLUhvc3QgIkludmFsaWQgYXVkaXRfc2NvcGUgdmFsdWU6ICRhdWRpdFNjb3BlIgogICAgV3JpdGUtSG9zdCAiVmFsaWQgdmFsdWVzIGFyZTogYm90aCwgdXNlcnMsIGNvbXB1dGVycyIKICAgIGV4aXQgMQogIH0KfQoKaWYgKCRpbmFjdGl2ZVVzZXJzRm91bmQgLW9yICRpbmFjdGl2ZUNvbXB1dGVyc0ZvdW5kKSB7CiAgV3JpdGUtSG9zdCAiIgogIFdyaXRlLUhvc3QgIlNUQVRVUzoiCgogIGlmICgkaW5hY3RpdmVDb21wdXRlcnNGb3VuZCkgewogICAgV3JpdGUtSG9zdCAiSU5BQ1RJVkVfQ09NUFVURVJTX0ZPVU5EIgogIH0KCiAgaWYgKCRpbmFjdGl2ZVVzZXJzRm91bmQpIHsKICAgIFdyaXRlLUhvc3QgIklOQUNUSVZFX1VTRVJTX0ZPVU5EIgogIH0KfQ==",
+  "timeout_seconds": 3600,
+  "variables": [
+    {
+      "name": "audit_scope",
+      "label": "Scope of the Audit",
+      "type": "string",
+      "default": "both",
+      "required": true,
+      "description": "Scope of the audit, can be \"both\", \"users\", or \"computers\"."
+    },
+    {
+      "name": "user_inactiveDays",
+      "label": "Inactive Days for Users",
+      "type": "string",
+      "default": "30",
+      "required": true,
+      "description": "Number of days since user was seen active in active directory."
+    },
+    {
+      "name": "user_ignorelist",
+      "label": "Users to Ignore When Auditing",
+      "type": "string",
+      "default": "",
+      "required": false,
+      "description": "Comma-separated list of users to ignore (e.g. \"userA,userB,userC\") (Do not put quotes)"
+    },
+    {
+      "name": "computer_inactiveDays",
+      "label": "Inactive Days for Computers",
+      "type": "string",
+      "default": "30",
+      "required": true,
+      "description": "Number of days since computer was seen active in active directory."
+    },
+    {
+      "name": "computer_ignorelist",
+      "label": "Computers to Ignore When Auditing",
+      "type": "string",
+      "default": "",
+      "required": false,
+      "description": "Comma-separated list of computers to ignore (e.g. \"computerA,computerB,computerC\") (Do not write quotes)"
+    }
+  ],
+  "files": []
+}
