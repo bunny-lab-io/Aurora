@@ -1,0 +1,10 @@
+{
+  "assembly_guid": "6A9A0ACC-25BD-4BA4-81AE-0D19D7F365F1",
+  "name": "Audit Time Zone [WIN]",
+  "description": "Audit Device Timezone",
+  "type": "powershell",
+  "script": "W0NtZGxldEJpbmRpbmcoKV0KcGFyYW0oKQoKdHJ5IHsKICAgICRhY3RpdmVUaW1lWm9uZSA9IChHZXQtQ2ltSW5zdGFuY2UgLUNsYXNzTmFtZSBXaW4zMl9UaW1lWm9uZSAtRXJyb3JBY3Rpb24gU3RvcCkuQ2FwdGlvbgp9IGNhdGNoIHsKICAgIHRyeSB7CiAgICAgICAgJGFjdGl2ZVRpbWVab25lID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX1RpbWVab25lIC1FcnJvckFjdGlvbiBTdG9wKS5DYXB0aW9uCiAgICB9IGNhdGNoIHsKICAgICAgICBXcml0ZS1FcnJvciAiVW5hYmxlIHRvIHJldHJpZXZlIHRoZSBhY3RpdmUgT1MgdGltZSB6b25lOiAkKCRfLkV4Y2VwdGlvbi5NZXNzYWdlKSIKICAgICAgICBleGl0IDEKICAgIH0KfQoKV3JpdGUtT3V0cHV0ICJBY3RpdmUgT1MgVGltZSBab25lOiAkYWN0aXZlVGltZVpvbmUiCg==",
+  "timeout_seconds": 3600,
+  "variables": [],
+  "files": []
+}
