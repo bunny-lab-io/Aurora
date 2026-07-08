@@ -1,0 +1,27 @@
+{
+  "assembly_guid": "878cfcf8-654e-490b-a4ad-bc955b7d4091",
+  "name": "Audit Users in Specific AD Security Groups [WIN]",
+  "description": "Used to generate CSV reports of active directory domain users that belong to a specific comma-separated list of AD security groups. ",
+  "type": "powershell",
+  "script": "JGdyb3Vwc1JhdyA9IFtFbnZpcm9ubWVudF06OkdldEVudmlyb25tZW50VmFyaWFibGUoInRhcmdldEdyb3VwcyIpCgppZiAoW3N0cmluZ106OklzTnVsbE9yV2hpdGVTcGFjZSgkZ3JvdXBzUmF3KSkgewogIHRocm93ICJUaGUgdGFyZ2V0R3JvdXBzIGVudmlyb25tZW50IHZhcmlhYmxlIGlzIGVtcHR5IG9yIHdhcyBub3QgcHJvdmlkZWQuIgp9CgojIFJlbW92ZSBhY2NpZGVudGFsIHdyYXBwaW5nIHF1b3RlcyBmcm9tIHRoZSBmdWxsIHZhcmlhYmxlIHZhbHVlCiRncm91cHNSYXcgPSAkZ3JvdXBzUmF3LlRyaW0oKS5UcmltKCInIikuVHJpbSgnIicpCgojIFNwbGl0IHRoZSBzaW5nbGUgdmFyaWFibGUgaW50byBtdWx0aXBsZSBncm91cCBuYW1lcy4KIyBFeHBlY3RlZCB2YXJpYWJsZSBmb3JtYXQ6CiMgQm9yZWFsaXNfQWRtaW5zLEJvcmVhbGlzX09wZXJhdG9ycwokZ3JvdXBzID0gJGdyb3Vwc1JhdyAtc3BsaXQgIiwiIHwgRm9yRWFjaC1PYmplY3QgewogICRfLlRyaW0oKS5UcmltKCInIikuVHJpbSgnIicpCn0gfCBXaGVyZS1PYmplY3QgewogICRfCn0KCiRhbGxSZXBvcnRSb3dzID0gZm9yZWFjaCAoJGdyb3VwIGluICRncm91cHMpIHsKICB0cnkgewogICAgJG1lbWJlcnMgPSBAKEdldC1BREdyb3VwTWVtYmVyIC1JZGVudGl0eSAkZ3JvdXAgLVJlY3Vyc2l2ZSAtRXJyb3JBY3Rpb24gU3RvcCkKCiAgICBpZiAoJG1lbWJlcnMuQ291bnQgLWVxIDApIHsKICAgICAgW1BTQ3VzdG9tT2JqZWN0XUB7CiAgICAgICAgR3JvdXAgICAgICAgICAgICAgPSAkZ3JvdXAKICAgICAgICBOYW1lICAgICAgICAgICAgICA9ICJOTyBNRU1CRVJTIgogICAgICAgIFNhbUFjY291bnROYW1lICAgID0gJG51bGwKICAgICAgICBPYmplY3RDbGFzcyAgICAgICA9ICRudWxsCiAgICAgICAgRGlzdGluZ3Vpc2hlZE5hbWUgPSAkbnVsbAogICAgICB9CgogICAgICBjb250aW51ZQogICAgfQoKICAgICRtZW1iZXJzIHwKICAgICAgU2VsZWN0LU9iamVjdCBgCiAgICAgICAgQHtuPSJHcm91cCI7IGU9eyRncm91cH19LCBgCiAgICAgICAgTmFtZSwgU2FtQWNjb3VudE5hbWUsIE9iamVjdENsYXNzLCBEaXN0aW5ndWlzaGVkTmFtZQogIH0KICBjYXRjaCB7CiAgICBXcml0ZS1XYXJuaW5nICJGYWlsZWQgdG8gcXVlcnkgZ3JvdXAgJyRncm91cCcuIEVycm9yOiAkKCRfLkV4Y2VwdGlvbi5NZXNzYWdlKSIKCiAgICBbUFNDdXN0b21PYmplY3RdQHsKICAgICAgR3JvdXAgICAgICAgICAgICAgPSAkZ3JvdXAKICAgICAgTmFtZSAgICAgICAgICAgICAgPSAiRVJST1IiCiAgICAgIFNhbUFjY291bnROYW1lICAgID0gJG51bGwKICAgICAgT2JqZWN0Q2xhc3MgICAgICAgPSAkKCRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgICBEaXN0aW5ndWlzaGVkTmFtZSA9ICRudWxsCiAgICB9CiAgfQp9CgojIERpc3BsYXkgYWxsIGNvbGxlY3RlZCBncm91cCBtZW1iZXJzaGlwIGRhdGEgYXMgb25lIG1lcmdlZCB0YWJsZSAoTW9yZSBkZXRhaWxzIGFyZSBpbiB0aGUgQ1NWKQokYWxsUmVwb3J0Um93cyB8CiAgU2VsZWN0LU9iamVjdCBHcm91cCwgTmFtZSwgU2FtQWNjb3VudE5hbWUgfAogIEZvcm1hdC1UYWJsZSAtQXV0b1NpemUgfAogIE91dC1Ib3N0CgokZXhwb3J0UGF0aCA9IFtFbnZpcm9ubWVudF06OkdldEVudmlyb25tZW50VmFyaWFibGUoIkNTVl9leHBvcnRfcGF0aCIpCgppZiAoW3N0cmluZ106OklzTnVsbE9yV2hpdGVTcGFjZSgkZXhwb3J0UGF0aCkpIHsKICAkZXhwb3J0UGF0aCA9ICJDOlxTY3JpcHRzXGF1ZGl0X3VzZXJzX2luX3NwZWNpZmljX0FEX2dyb3VwX3JlcG9ydC5jc3YiCn0KCiRleHBvcnRQYXRoID0gJGV4cG9ydFBhdGguVHJpbSgpLlRyaW0oIiciKS5UcmltKCciJykKJGV4cG9ydEZvbGRlciA9IFNwbGl0LVBhdGggLVBhdGggJGV4cG9ydFBhdGggLVBhcmVudAoKaWYgKC1ub3QgKFRlc3QtUGF0aCAtUGF0aCAkZXhwb3J0Rm9sZGVyKSkgewogIE5ldy1JdGVtIC1QYXRoICRleHBvcnRGb2xkZXIgLUl0ZW1UeXBlIERpcmVjdG9yeSAtRm9yY2UgfCBPdXQtTnVsbAp9CgokYWxsUmVwb3J0Um93cyB8CiAgRXhwb3J0LUNzdiAtUGF0aCAkZXhwb3J0UGF0aCAtTm9UeXBlSW5mb3JtYXRpb24gLUVuY29kaW5nIFVURjg=",
+  "timeout_seconds": 3600,
+  "variables": [
+    {
+      "name": "targetGroups",
+      "label": "Groups to Audit",
+      "type": "string",
+      "default": "\"groupA,groupB,groupC\"",
+      "required": true,
+      "description": "Name of AD Security Groups (do not add spaces). "
+    },
+    {
+      "name": "CSV_export_path",
+      "label": "CSV Report Path",
+      "type": "string",
+      "default": "C:\\Scripts\\audit_users_in_specific_AD_group_report.csv",
+      "required": true,
+      "description": "Location to save CSV report data."
+    }
+  ],
+  "files": []
+}
